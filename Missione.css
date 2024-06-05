@@ -1,0 +1,193 @@
+.original-surfer-regular {
+    font-family: "Original Surfer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body{
+    background-color: antiquewhite;
+    font-family: serif;
+}
+
+@media (max-width: 400px){
+    body{
+        margin: 0px;
+        font-size: 6px;
+    }
+}
+
+nav, footer{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(10,10,117);
+    border-radius: 10px;
+    font-size: 100%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media (max-width: 400px){
+    nav, footer{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+nav img, footer img{
+    height: 80%;
+}
+
+@media (max-width: 400px){
+    nav img, footer img{
+        display: none;
+    }
+}
+
+nav a, footer p{
+    color:aqua;
+    font-family:fantasy;
+    font-size: 2em;
+    margin-right: 2%;
+}
+
+@media (max-width: 400px){
+    nav a, footer p{
+        font-size: 32px;
+        margin: 15px;
+    }
+}
+
+header{
+    height: 20%;
+    width: 100%;
+    font-size: 100%;
+    margin: 0% auto;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+@media (max-width: 400px){
+    header{
+        height: 5%;
+    }
+}
+
+@media (max-width: 400px){
+    header img{
+        height: 80%;
+    }
+}
+
+#Titolo{
+    font-family:fantasy;
+    font-size: 5em;
+    color: rgb(10,10,117);
+    text-align:center;
+}
+
+article{
+    height: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 400px){
+    article{
+        height: 70%;
+    }
+}
+
+#Messaggio{
+    width: 80%;
+    font-family: Original Surfer;
+    font-size: 4em;
+    color: rgb(10, 10, 117);
+    text-align:center;
+    margin: 0% 10%;    
+}
+
+@media(max-width: 400px){
+    #Messaggio{
+        width: 100%;
+    }
+}
+
+#Pergamena{
+    height: 100%;
+}
+
+@media (max-width: 400px){
+    #Pergamena{
+        height: 80%;
+    }
+}
+
+#Testo{
+    width: 70%;
+    font-family: Original Surfer;
+    font-size: 3em;
+    color: rgb(10, 10, 117);
+    text-align:center;
+    position: absolute;
+    margin: 20% 45%;
+}
+
+@media (max-width: 400px){
+    #Testo{
+        font-size: 18px;
+        margin: 0%;
+    }
+}
+
+footer{
+    margin-top: 5%;
+}
+
+@media (max-width: 400px){
+    footer{
+        position:absolute;
+        bottom: 0%;
+    }
+}
+
+nav a:hover, .Riquadri a:hover{
+    cursor: pointer;
+    color: aqua;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.allarga{
+    width: 85%;
+}
+
+@media(max-width: 400px){
+    .allarga{
+        width: 100%;
+    }
+}
+
+.Posizione{
+    height: 40%;
+    position: absolute;
+    bottom: 0%;
+    right: 20%;
+}
+
+@media(max-width: 400px){
+    .Posizione{
+        height: 20%;
+        bottom: 15%;
+        right: 5%;
+    }
+}

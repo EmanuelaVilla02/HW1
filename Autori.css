@@ -1,0 +1,199 @@
+.original-surfer-regular {
+    font-family: "Original Surfer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body{
+    background-color: antiquewhite;
+    font-family: "Original Surfer", serif;
+}
+
+@media (max-width: 400px){
+    body{
+        margin: 0px;
+        font-size: 6px;
+    }
+}
+
+nav, footer{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(10,10,117);
+    border-radius: 10px;
+    font-size: 100%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media (max-width: 400px){
+    nav, footer{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+nav img, footer img{
+    height: 80%;
+}
+
+@media (max-width: 400px){
+    nav img, footer img{
+        display: none;
+    }
+}
+
+nav a, footer p{
+    color:aqua;
+    font-family:fantasy;
+    font-size: 2em;
+    margin-right: 2%;
+}
+
+@media (max-width: 400px){
+    nav a, footer p{
+        font-size: 32px;
+        margin: 15px;
+    }
+}
+
+header{
+    height: 20%;
+    width: 100%;
+    font-size: 100%;
+    margin: 0% auto;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+@media (max-width: 400px){
+    header{
+        height: 5%;
+        justify-content:center;
+    }
+}
+
+header img{
+    height: 40%;
+}
+
+@media (max-width: 400px){
+    header img{
+        height: 80%;
+    }
+}
+
+#Titolo{
+    font-family:fantasy;
+    font-size: 5em;
+    color: rgb(10,10,117);
+    text-align:center;
+}
+
+#Galleria {
+    height: 50%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media(max-width: 400px){
+    #Galleria{
+        height: 80%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+}
+
+#Galleria img{
+    height: 100%;
+    border: 5px double rgb(10,10,117);
+}
+
+@media(max-width: 400px){
+    #Galleria img{
+        height: 30%;
+        margin: 2%;
+    }
+}
+
+#Didascalia div{
+    margin: 5% auto;
+    font-family:fantasy;
+    font-size: 2.5em;
+    color: rgb(10,10,117);
+    text-align: center;
+}
+
+article{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("Icone/Libro.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+@media(max-width: 400px){
+    article{
+        height: 100%;
+        padding: 15%;
+        flex-direction: column;
+        justify-content: space-around;
+        background-image: url("Icone/Pergamena 4.png");
+    }
+}
+
+.Autore{
+    height: 80%;
+    width: 35%;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media(max-width:400px){
+    .Autore{
+        height: 30%;
+        width: 60%;
+        margin: 0%;
+        justify-content: center;
+    }
+}
+
+.Nome{
+    margin: 0%;
+    font-family:fantasy;
+    font-size: 4em;
+    color: rgb(10,10,117);
+}
+
+.Descrizione{
+    margin-top: 0%;
+    font-size: 2.5em;
+    color: rgb(10,10,117);
+    text-align: justify;
+}
+
+nav a:hover, .Riquadri a:hover{
+    cursor: pointer;
+    color: aqua;
+}
+
+.hidden{
+    display: none;
+}

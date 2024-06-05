@@ -1,0 +1,151 @@
+.original-surfer-regular {
+    font-family: "Original Surfer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: serif;
+    
+    background-image: url("Icone/Login.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:center;
+
+}
+
+@media (max-width: 400px){
+    body{
+        margin: 0px;
+        font-size: 6px;
+    }
+}
+
+nav{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(10,10,117);
+    border-radius: 10px;
+    font-size: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 400px){
+    nav{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.Titolo{
+    font-family:fantasy;
+    font-size: 4em;
+    color:aqua;
+    text-align:center;
+}
+
+header{
+    height: 60%;
+    width: 40%;
+    font-size: 100%;
+    margin: 1% auto;
+    background-color: rgba(0,255,255,0.5);
+
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+}
+
+@media (max-width: 400px){
+    header{
+        height: 50%;
+        width: 80%;
+        font-size: 100%;
+        margin: 1% auto;
+    }
+}
+
+header div{
+    height: 100%;
+    width: 40%;
+
+    background-image: url("Icone/Cigno.jpg");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+@media (max-width: 400px){
+    header div{
+        display: none;
+    }
+}
+
+header form{
+    height: 50%;
+    width: 20%;
+
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+@media (max-width: 400px){
+    header form{
+        width: 90%;  
+    }
+}
+
+form p{
+    font-size: 2em;
+    color: darkblue;
+}
+
+@media (max-width: 400px){
+    form p{
+        font-size: 6em;
+    }
+}
+
+form label{
+    margin-left: auto;
+    font-size: 1.5em;
+    color: darkblue;
+}
+
+@media (max-width: 400px){
+    form label{
+        font-size: 3em;
+    }
+}
+
+.Invia{
+    margin-top: 5%;
+    margin-left: auto;
+}
+
+section{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+
+.Errore{
+    font-family:fantasy;
+    font-size: 4em;
+    color:white;
+}

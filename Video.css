@@ -1,0 +1,135 @@
+.original-surfer-regular {
+    font-family: "Original Surfer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body{
+    background-color: antiquewhite;
+    font-family: "Original Surfer", serif;
+}
+
+@media (max-width: 400px){
+    body{
+        margin: 0px;
+        font-size: 6px;
+    }
+}
+
+nav, footer{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(10,10,117);
+    border-radius: 10px;
+    font-size: 100%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media (max-width: 400px){
+    nav, footer{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+nav img, footer img{
+    height: 80%;
+}
+
+@media (max-width: 400px){
+    nav img, footer img{
+        display: none;
+    }
+}
+
+nav a, footer p{
+    color:aqua;
+    font-family:fantasy;
+    font-size: 2em;
+    margin-right: 2%;
+}
+
+@media (max-width: 400px){
+    nav a, footer p{
+        font-size: 32px;
+        margin: 15px;
+    }
+}
+
+article{
+    height: 80%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+@media (max-width: 400px){
+    article{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
+
+#Didascalia{
+    height: 100%;
+    width: 25%;
+    background-image: url(Icone/Cartello.png);
+    background-position: top;
+    background-size:contain;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 400px){
+    #Didascalia{
+        background-position: center;
+        justify-content: center;
+        align-items: center;
+    }   
+}
+
+#Didascalia div{
+    width: 55%;
+    margin-top: 8%;
+    font-family:fantasy;
+    font-size: 2em;
+    color: rgb(10,10,117);
+    text-align: center;
+}
+
+@media (max-width: 400px){
+    #Didascalia div{
+        width: 40%;
+        margin-top: 8%;
+        font-size: 3em;
+    }
+}
+
+#player{
+    border: 10px double rgb(10,10,117);
+    height: 80%;
+}
+
+@media (max-width: 400px){
+    #player{
+        height: 50%; 
+        margin-bottom: 20%;
+    }
+}
+
+article img{
+    margin-right: 5%;
+    margin-left: -5%;
+}
+
+nav a:hover, .Riquadri a:hover{
+    cursor: pointer;
+    color: aqua;
+}
